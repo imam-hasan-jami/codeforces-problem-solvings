@@ -8,5 +8,7 @@ public class boyOrGirl {
         String word = sc.nextLine();
         int count = (int) word.chars().distinct().count();
         System.out.println(count % 2 == 0 ? "CHAT WITH HER!" : "IGNORE HIM!");
+
+        sc.close();
     }
 }
