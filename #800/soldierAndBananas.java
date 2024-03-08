@@ -20,5 +20,7 @@ public class soldierAndBananas {
         } else {
             System.out.println(totalCost - n);
         }
+
+        sc.close();
     }
 }
