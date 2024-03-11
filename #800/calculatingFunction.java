@@ -12,6 +12,7 @@ public class calculatingFunction {
         } else {
             System.out.println(-(n/2)-1);
         }
+        
         sc.close();
     }
 }
