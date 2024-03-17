@@ -1,13 +1,5 @@
 package problemsolving;
 
-// import java.util.*;
-
-// public class iWannaBeTheGuy {
-//     public static void main(String[] args) {
-        
-//     }
-// }
-
 import java.util.*;
 
 public class iWannaBeTheGuy {
