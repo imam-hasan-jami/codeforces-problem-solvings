@@ -1,0 +1,17 @@
+#!/usr/bin/perl -w
+ 
+use strict;
+ 
+sub op {
+    my $s = shift;
+    join '', sort split //, $s;
+}
+ 
+my $a = <>;
+chomp $a;
+my $b = <>;
+chomp $b;
+my $c = <>;
+chomp $c;
+ 
+print op($c) eq op($a . $b) ? "YES\n" : "NO\n";
