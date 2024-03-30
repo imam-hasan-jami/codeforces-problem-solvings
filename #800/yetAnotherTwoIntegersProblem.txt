@@ -1,0 +1,6 @@
+t = gets.to_i
+t.times do
+  a, b = gets.split.map(&:to_i)
+  ans = ((a - b).abs + 9) / 10
+  puts ans
+end
