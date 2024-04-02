@@ -1,0 +1,13 @@
+t = gets.chomp.to_i
+t.times do
+  x, y, b = gets.chomp.split(' ').map(&:to_i)
+  if x >= y
+    puts x
+  else
+    if x + b >= y
+      puts y
+    else
+      puts x + b + ((y - x - b) * 2)
+    end
+  end
+end
