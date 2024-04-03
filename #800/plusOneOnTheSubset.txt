@@ -1,0 +1,5 @@
+gets.to_i.times do
+  gets
+  xs = gets.split.map(&:to_i)
+  p xs.max - xs.min
+end
