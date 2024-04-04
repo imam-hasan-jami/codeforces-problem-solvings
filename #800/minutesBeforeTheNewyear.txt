@@ -1,0 +1,6 @@
+gets.to_i.times do
+  r = 0
+  h, m = gets.split.map(&:to_i)
+  r += ((24 - h) * 60 + (60 - m))
+  puts r - 60
+end
