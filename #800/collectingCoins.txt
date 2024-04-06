@@ -1,0 +1,11 @@
+t = gets.to_i
+ 
+t.times do
+  a, b, c, n = gets.split.map(&:to_i)
+  sum = a + b + c + n
+  if sum % 3 == 0 && sum / 3 >= [a, b, c].max
+    puts "YES"
+  else
+    puts "NO"
+  end
+end
