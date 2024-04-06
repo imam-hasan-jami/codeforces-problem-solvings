@@ -1,0 +1,17 @@
+gets.to_i.times do
+  p = gets.chomp.split('').map do |i|
+    if i == '0'
+      10
+    else
+      i.to_i
+    end
+  end
+  c = 1
+  r = 0
+  p.each do |i|
+    r += (c - i).abs + 1
+    c = i
+    # puts (c - i.to_i).abs + 1
+  end
+  puts r
+end
