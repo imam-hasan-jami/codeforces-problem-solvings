@@ -1,0 +1,4 @@
+gets.to_i.times do
+  n = gets.to_i
+  puts -gets.split.map!(&:to_i).sum
+end
