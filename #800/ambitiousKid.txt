@@ -1,0 +1,1 @@
+<>;$_=<>;s/-//g;print+(sort{$a<=>$b}@a=split)[0]
