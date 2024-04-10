@@ -1,0 +1,4 @@
+gets.to_i.times do
+  n=gets.to_i
+  puts n**2+2*n+2
+end
