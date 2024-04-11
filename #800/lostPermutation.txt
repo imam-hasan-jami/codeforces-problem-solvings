@@ -1,0 +1,11 @@
+gets.to_i.times do
+    m, s=gets.chomp.split(' ').map(&:to_i)
+    arr=gets.chomp.split(' ').map(&:to_i)
+    n= Math.sqrt((arr.sum+s)*2).floor
+    mx=arr.max
+    if arr.uniq.length==m && n*(n+1)==(arr.sum+s)*2 && n>=mx
+        puts "YES"
+    else
+        puts "NO"
+    end
+end
