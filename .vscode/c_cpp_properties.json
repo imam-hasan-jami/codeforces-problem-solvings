@@ -1,0 +1,42 @@
+
+{
+
+    "configurations": [
+
+        {
+
+            "name": "Win32",
+
+            "includePath": [
+
+                "${workspaceFolder}/**",
+
+                "/usr/include/c++/9", // Update this path to match your system's include path
+
+                "/usr/include/x86_64-linux-gnu/c++/9", // Update this path to match your system's include path
+
+                "/usr/local/include",
+
+                "/usr/include"
+
+            ],
+
+            "defines": [],
+
+            "windowsSdkVersion": "10.0.19041.0",
+
+            "compilerPath": "/usr/bin/g++", // Update this path to match your system's compiler path
+
+            "cStandard": "c11",
+
+            "cppStandard": "c++17",
+
+            "intelliSenseMode": "linux-gcc-x64"
+
+        }
+
+    ],
+
+    "version": 4
+
+}
