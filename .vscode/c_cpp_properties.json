@@ -26,6 +26,7 @@
             "windowsSdkVersion": "10.0.19041.0",
 
             "compilerPath": "/usr/bin/g++", // Update this path to match your system's compiler path
+            //"compilerPath": "/usr/local/bin/g++-13",            
 
             "cStandard": "c11",
 
